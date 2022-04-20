@@ -1,0 +1,86 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+/* @import url("960_12_col.css"); */
+
+body
+{
+    font-family: 'Oswald', 'Futura', sans-serif;
+    width: 960px;
+    margin: auto;
+    background-image: url("D:/Javascript/Sidebar/bg.jpg");
+}
+
+a
+{
+    float: right;
+    position: relative;
+    top: -10px;
+    margin: 20px;
+}
+
+i.menu
+{
+    float: right;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    cursor: pointer;
+    /* height: 20px; */
+} 
+
+i.logo
+{
+    font-size: 100px;
+    text-align: center;
+    color: black;
+}
+
+i.xmark
+{
+    float: right;
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+
+
+i:hover
+{
+    color: rgb(168, 171, 175);
+}
+
+#sidebar
+{
+    position: relative;
+    bottom: 664px;
+    /* right: 400px; */
+    /* max-width: 100px; */
+    width: 400px;
+    text-align: center;
+    margin: 20px;
+}
+
+ul
+{
+    list-style-type: none;
+    position: relative;
+    left: -20px;
+}
+
+li
+{
+    border-style: solid;
+    padding: 30px;
+    font-size: x-large;
+    cursor: pointer;
+    border-bottom-color: grey;
+    border-top-color: rgb(55, 55, 55);
+    border-right-color: rgb(55, 55, 55);
+    border-left-color: grey;
+    text-shadow: -2px -5px 5px rgb(199, 166, 166);
+}
+
+li:hover
+{
+    color: rgb(151, 150, 150);
+}
